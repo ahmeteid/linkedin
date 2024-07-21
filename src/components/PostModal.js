@@ -125,15 +125,15 @@ function PostModal(props) {
             <ShareCreation>
               <AttachAssets>
                 <AssetsButton onClick={() => switchAssetArea("image")}>
-                  <img src="/images/share-image.svg" />
+                  <img src="/images/share-image.svg" alt="" />
                 </AssetsButton>
                 <AssetsButton onClick={() => switchAssetArea("media")}>
-                  <img src="/images/share-video.svg" />
+                  <img src="/images/share-video.svg" alt="" />
                 </AssetsButton>
               </AttachAssets>
               <ShareComment>
                 <AssetsButton>
-                  <img src="/images/share-comment.svg" />
+                  <img src="/images/share-comment.svg" alt="" />
                   Anyone
                 </AssetsButton>
               </ShareComment>
