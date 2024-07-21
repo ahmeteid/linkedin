@@ -7,11 +7,11 @@ function Rightside() {
         <FollowCard>
           <Title>
             <h2>Add to your feed</h2>
-            <img src="/images/feed-icon.svg" />
+            <img src="/images/feed-icon.svg" alt="" />
           </Title>
           <FeedList>
             <li>
-              <a>
+              <a href="">
                 <Avatar />
               </a>
               <div>
@@ -20,7 +20,7 @@ function Rightside() {
               </div>
             </li>
             <li>
-              <a>
+              <a href="">
                 <Avatar />
               </a>
               <div>
@@ -31,11 +31,11 @@ function Rightside() {
           </FeedList>
           <Recommendation>
             View all recommendations
-            <img src="/images/right-icon.svg" />
+            <img src="/images/right-icon.svg" alt="" />
           </Recommendation>
         </FollowCard>
         <BannerCard>
-          <img src="/images/banner-image.jpg" />
+          <img src="/images/banner-image.jpg" alt="" />
         </BannerCard>
       </Container>
     </>

@@ -10,51 +10,51 @@ function Header(props) {
         <Content>
           <Logo>
             <a href="/home">
-              <img src="/images/home-logo.svg" />
+              <img src="/images/home-logo.svg" alt="" />
             </a>
           </Logo>
           <Search>
             <div>
               <input type="text" placeholder="Search" />
               <SearchIcon>
-                <img src="/images/search-icon.svg" />
+                <img src="/images/search-icon.svg" alt="" />
               </SearchIcon>
             </div>
           </Search>
           <Nav>
             <NavListWrap>
               <NavList>
-                <a>
-                  <img src="/images/nav-home.svg" />
+                <a href="#">
+                  <img src="/images/nav-home.svg" alt="" />
                   <span>Home</span>
                 </a>
               </NavList>
               <NavList>
-                <a>
-                  <img src="/images/nav-network.svg" />
+                <a href="#">
+                  <img src="/images/nav-network.svg" alt="" />
                   <span>My Network</span>
                 </a>
               </NavList>
               <NavList>
-                <a>
-                  <img src="/images/nav-jobs.svg" />
+                <a href="#">
+                  <img src="/images/nav-jobs.svg" alt="" />
                   <span>jobs</span>
                 </a>
               </NavList>
               <NavList>
-                <a>
-                  <img src="/images/nav-messaging.svg" />
+                <a href="#">
+                  <img src="/images/nav-messaging.svg" alt="" />
                   <span>Messaging</span>
                 </a>
               </NavList>
               <NavList>
-                <a>
-                  <img src="/images/nav-notifications.svg" />
+                <a href="#">
+                  <img src="/images/nav-notifications.svg" alt="" />
                   <span>Notification</span>
                 </a>
               </NavList>
               <User>
-                <a>
+                <a href="#">
                   {props.user && props.user.photoURL ? (
                     <img src={props.user.photoURL} />
                   ) : (
@@ -63,7 +63,7 @@ function Header(props) {
 
                   <span>
                     Me
-                    <img src="/images/down-icon.svg" />
+                    <img src="/images/down-icon.svg" alt="" />
                   </span>
                 </a>
                 <SignOut onClick={() => props.signOut()}>
@@ -71,11 +71,11 @@ function Header(props) {
                 </SignOut>
               </User>
               <Work>
-                <a>
-                  <img src="/images/nav-work.svg" />
+                <a href="#">
+                  <img src="/images/nav-work.svg" alt="" />
                   <span>
                     Work
-                    <img src="/images/down-icon.svg" />
+                    <img src="/images/down-icon.svg" alt="" />
                   </span>
                 </a>
               </Work>
