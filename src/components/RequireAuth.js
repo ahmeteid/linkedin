@@ -9,7 +9,7 @@ function RequireAuth({ user, children }) {
     if (!user) {
       navigate("/", { replace: true });
     }
-  }, [user]);
+  }, [navigate, user]);
 
   return children;
 }
