@@ -244,6 +244,12 @@ const SignOut = styled(NavList)`
   text-align: center;
   display: none;
   cursor: pointer;
+  @media (max-width: 767px) {
+    position: absolute;
+    top: -45px;
+    right: 15px;
+    background-color: #eee;
+  }
 `;
 const User = styled(NavList)`
   a > svg {
